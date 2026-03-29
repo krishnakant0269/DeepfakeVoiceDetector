@@ -1,0 +1,59 @@
+{
+  "financial_urgency": [
+    "your account (will be|has been) (suspended|locked|frozen)",
+    "unauthorized (transaction|activity)",
+    "verify your account",
+    "confirm your (identity|ssn|social security)",
+    "update your payment",
+    "account.*suspended",
+    "account.*locked",
+    "account.*frozen",
+    "lottery",
+    "prize"
+  ],
+  "authority_impersonation": [
+    "(IRS|tax department|revenue service)",
+    "federal (agent|officer)",
+    "you owe.*tax",
+    "warrant.*arrest",
+    "legal action",
+    "bank calling",
+    "this is your bank",
+    "lottery",
+    "prize"
+  ],
+  "tech_support_scam": [
+    "computer (virus|infected|compromised)",
+    "microsoft.*calling",
+    "windows.*support",
+    "refund.*subscription",
+    "remote access"
+  ],
+  "otp_request": [
+    "one.?time (password|code|pin|otp)",
+    "verification code",
+    "6.?digit (code|number)",
+    "text.*code"
+  ],
+  "personal_info_phishing": [
+    "social security number",
+    "date of birth",
+    "mother'?s maiden name",
+    "card number",
+    "credit card",
+    "cvv",
+    "cv v",
+    "debit card",
+    "online banking (password|credentials)",
+    "verify.*credit card"
+  ],
+  "urgency_language": [
+    "immediately",
+    "right now",
+    "within.*hours",
+    "urgent",
+    "emergency",
+    "expire",
+    "last chance"
+  ]
+}

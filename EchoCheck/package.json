@@ -1,0 +1,16 @@
+
+
+{
+   "dependencies": {
+    "axios": "^1.13.5"
+  },
+  "name": "echocheck-root",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "concurrently \"cd server && npm start\" \"cd client && npm start\" \"cd ai_service && python main.py\""
+  },
+  "devDependencies": {
+    "concurrently": "^9.2.1"
+  }
+}
